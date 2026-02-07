@@ -1,4 +1,4 @@
-body {
+body {body {
     font-family: 'Arial', sans-serif;
     background-color: #ffeef2;
     display: flex;
@@ -11,35 +11,40 @@ body {
 
 .container {
     background: white;
-    padding: 2rem;
-    border-radius: 20px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    padding: 2.5rem;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    max-width: 90%;
 }
 
 h1 {
     color: #d63384;
+    font-size: 1.8rem;
 }
 
 img {
-    width: 200px;
-    border-radius: 10px;
+    width: 250px;
+    max-width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
 }
 
 .buttons {
-    margin-top: 20px;
+    margin-top: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 button {
-    padding: 10px 25px;
+    padding: 12px 28px;
     font-size: 1.2rem;
     border: none;
-    border-radius: 10px;
+    border-radius: 12px;
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
 }
 
 #btn-oui {
@@ -54,4 +59,5 @@ button {
 
 .hidden {
     display: none;
+}
 }
